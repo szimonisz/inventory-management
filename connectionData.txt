@@ -1,0 +1,10 @@
+<?php
+
+$server = "ix.cs.uoregon.edu";
+$dbname ="stp";
+$user = "guest";
+$pass = "guest";
+$port="3068";
+
+?>
+

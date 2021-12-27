@@ -1,0 +1,18 @@
+/* PRODUCT style.css */
+body{
+    background-color: lightgreen;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.item {
+    border: 5px solid black;
+    padding: 5px;
+}
+table, th, td {
+  border: 1px solid black;
+}

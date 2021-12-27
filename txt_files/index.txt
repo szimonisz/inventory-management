@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>CIS451 Final Project: stp</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="products.js"></script>
+    </head>
+    <body>
+        <h3>CIS451 Final Project - Kelemen Szimonisz | Index</h3>
+        <hr>
+        <div class="container">
+            <div class="item">
+                <h2>STP Database</h2>
+                <h4>(Each bullet point is an application)</h4>
+                <h4>(Each link contains multiple applications)</h4>
+                <p><a href="materialsToProduct.php">Products and Materials</a></p>
+                <ul>
+                    <li>Inventory Management: view all products and materials</li>
+                    <li>Add new products, remove existing products</li>
+                    <li>Convert materials into products</li>
+                    <li>Check what products can be produced with the current material inventory</li>
+                    <li>Check if any products or materials are out of stock</li>
+                    <li>Determine what materials are required to produce a specific product</li>
+                </ul>
+                <p><a href="materials.php">Materials and Purchase Orders</a></p> 
+                <ul>
+                    <li>View Purchase Orders</li>
+                    <li>Create a new Purchase Orders</li>
+                    <li>Receive inventory from a Purchase Order</li>
+                    <li>Remove Materials from the database</li>
+                </ul>
+                <p><a href="profit.php">Profit Analysis</a></p>
+                <ul>
+                    <li>Profit Per Product</li>
+                    <li>Profit Margin</li>
+               </ul>
+                <p><a href="tableContents.php">Contents of Each Table</a></p>
+            </div>
+        </div>
+    </body>
+</html>
